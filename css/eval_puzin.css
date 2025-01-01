@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+/* Grand titre  */
+h1 {
+    font-size: 25pt;
+    display: box;
+    padding: 20px;
+    color: #fff;
+    background-color: #1a9b6a;
+    text-align: center
+}
+
+/* Auteur, date... */
+h2 {
+    color: rgb(46, 41, 41);
+    font-size: 12pt;
+    font: serif;
+    position: fixed;
+    top: 700px;
+    right: 210px;
+    font-weight: 100;
+}
+
+/* Caractéristiques de l'image du master */
+img {
+    height: 120px;
+    position: fixed;
+    top: 790px;
+    right: 10px;
+}
+
+/* Caractéristiques de la carte */
+#map {
+    position: fixed;
+    width: 1500px;
+    height: 790px;
+}
+
+/* Caractéristiques du tableau d'information sur les espaces naturels */
+
+#info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    box-shadow: 0 0 15px rgba(41, 141, 61, 0.375);
+    border-radius: 5px;
+    margin: 0 0 5px;
+    color: #3d3030;
+    position: fixed;
+    top: 125px;
+    right: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Caractéristiques de la légende */
+
+.info.legend i {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 3px;
+
+}
+
+.legend {
+    background: white;
+}
